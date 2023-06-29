@@ -5,7 +5,7 @@ import cors from "cors";
 
 const app = express();
 
-// mideleware
+// middleware
 app.use(express.json());
 
 const whiteList = [
