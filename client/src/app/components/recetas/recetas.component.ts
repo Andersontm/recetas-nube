@@ -18,6 +18,7 @@ export class RecetasComponent implements OnInit {
   verRecetaModal: boolean = false;
 
   mostarAciones!: boolean;
+ 
 
   idReceta!: number;
 

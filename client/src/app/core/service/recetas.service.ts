@@ -46,10 +46,11 @@ export class RecetasService {
   }
 
   postRecetas(file: any ){
-    return this.http.post<any>(this.URL_datosRecetas + file, {
+    console.log("file",file)
+   return this.http.post<any>(this.URL_datosRecetas, file, {
       withCredentials: true,
       }
-    )
+    ) 
   }
 
   deleteRecetas(id: number) {
@@ -60,6 +61,6 @@ export class RecetasService {
         withCredentials: true 
       }
     );
-
   }
+
 }
