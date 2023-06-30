@@ -6,7 +6,5 @@ export const sequelize = new Sequelize("railway", "postgres", "PyhR4kaS2upLMeHdm
   host: "containers-us-west-148.railway.app",
   logging: false,
   dialect: "postgres",
-  port: 7479,
+  port: 7479
 });
-
-
