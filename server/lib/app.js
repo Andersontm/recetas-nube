@@ -6,7 +6,7 @@ const app = express();
 
 // middleware
 app.use(express.json());
-const whiteList = ["http://localhost:4200", "https://localhost:4200", "https://inventario-espoch.rubenvn.com"];
+const whiteList = ["http://localhost:4200", "https://localhost:4200", "https://recetas-nube.vercel.app"];
 app.use(cors({
   credentials: true,
   origin: whiteList
