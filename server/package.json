@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "build": "babel src -d lib",
-    "start": "node lib/index.js",
+    "start": "node lib/index.js"
   },
   "author": "Ruben Valencia",
   "license": "MIT",
